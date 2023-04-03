@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ đếm thời gian</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="date-container">
+        <div class="date-item">
+            <div id="hour">0</div>
+            <div class="date-txt">giờ</div>
+        </div>
+        <div class="date-item">
+            <div id="minute">0</div>
+            <div class="date-txt">phút</div>
+        </div>
+        <div class="date-item">
+            <div id="seconds">0</div>
+            <div class="date-txt">giây</div>
+        </div>
+    </div>
+    <div class="date-tool">
+        <button onclick="startTime()">Bắt đầu</button>
+        <button onclick="stopTime()">Dừng lại</button>
+        <button onclick="resetTime()">Tải lại</button>
+    </div>
+
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

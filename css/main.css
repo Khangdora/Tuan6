@@ -1,0 +1,42 @@
+.date-container {
+    display: flex;
+    gap: 50px;
+}
+
+.date-item {
+    display: flex;
+    justify-content: center;
+    padding: 50px 40px;
+    background: #000000;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.date-txt {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.date-item div {
+    display: inline-block;
+}
+
+.date-txt {
+    margin-left: 5px;
+}
+
+.date-tool button {
+    background: #6f9f6f;
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.date-tool button:hover {
+    background: #4b6b4b;
+}
