@@ -49,3 +49,12 @@
 .date-tool button:hover {
     background: #4b6b4b;
 }
+
+#list {
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 15px;
+    height: 200px;
+    overflow: auto;
+    margin: 20px 0px;
+}
