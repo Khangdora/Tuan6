@@ -1,6 +1,13 @@
-.date-container {
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.date-container,
+.date-tool {
     display: flex;
     gap: 50px;
+    justify-content: center;
 }
 
 .date-item {
